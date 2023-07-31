@@ -28,7 +28,7 @@
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
     center: [23.5, 121], // EDIT coordinates to re-center map
-    zoom: 12,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
+    zoom: 11,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
     scrollWheelZoom: false
   });
 
@@ -41,8 +41,8 @@
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([23.6, 121.05]).addTo(map) // EDIT marker coordinates
-  .bindPopup("New Pin 新地標"); // EDIT pop-up text message
+  L.marker([25.061819232741247, 121.64583421565429]).addTo(map) // EDIT marker coordinates
+  .bindPopup("財團法人中國生產力中心"); // EDIT pop-up text message
 
   </script>
 </body>
