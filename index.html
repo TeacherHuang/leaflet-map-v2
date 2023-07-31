@@ -27,7 +27,7 @@
 
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
-    center: [121, 23.5], // EDIT coordinates to re-center map
+    center: [23.5, 121], // EDIT coordinates to re-center map
     zoom: 8,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
     scrollWheelZoom: false
   });
@@ -41,7 +41,7 @@
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([121.1, 23.6]).addTo(map) // EDIT marker coordinates
+  L.marker([23.6, 121.05]).addTo(map) // EDIT marker coordinates
   .bindPopup("New Pin 新地標"); // EDIT pop-up text message
 
   </script>
